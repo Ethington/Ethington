@@ -1,0 +1,26 @@
+function showProvince(id){
+     var myStyle = {color:"white",weight:5,"opacity":1,fillOpacity: 0};
+	  $.ajax({  
+		   type:"get",  
+		   url:prefix + "/geojson/" + id,  
+		   data:{},  
+		   async: false,
+		   dataType:"json",  
+		   cache:false,
+		   processData:false,
+		   success:function(result){
+		       if(undefined != provinceAreaLayer ){
+		            provinceAreaLayer.removeFrom(mymap);//先移除
+		       }
+		       if(result.code == web_status.SUCCESS){
+		        	var geojson = JSON.parse(result.data);
+		        	provinceAreaLayer = L.geoJSON(geojson,{style:myStyle}).addTo(mymap);
+		        		//同时设置中心位置和级别，一般省份设置为7
+		        	    mymap.setView(provinceAreaLayer.getBounds().getCenter(),7);
+		        	}
+		      },
+		      error:function(){
+		        	$.modal.alertWarning("获取空间信息失败");
+		        }
+		 });
+   }
