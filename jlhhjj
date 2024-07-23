@@ -1,0 +1,26 @@
+public class Add implements Ioperate{
+    @Override
+    public void operate(BookList bookList) {
+        int count = bookList.getCount();
+        int curSize = bookList.getCurSize();
+        if(count == curSize){
+            System.out.println(" .......");
+            return;
+        }
+
+        System.out.println(" :");
+        Scanner scan = new Scanner(System.in);
+        String name = scan.nextLine();
+        System.out.println("   ");
+        String author = scan.nextLine();
+        System.out.println(" ：");
+        String type = scan.nextLine();
+        System.out.println(" j：");
+        double price = scan.nextDouble();
+
+        Book newBook = new Book(name,author,type,price);
+        bookList.setBooks(curSize,newBook);
+        bookList.setCurSize(curSize + 1);
+    }
+}
+
