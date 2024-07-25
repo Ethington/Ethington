@@ -1,0 +1,125 @@
+common_app_development
+|---AppScope
+|---common                                // 公共能力层
+|   |---utils     
+|   |   |---component                     // 公共布局，如功能介绍布局
+|   |   |---log                           // 日志打印 
+|---feature                               // 基础特性层
+|   |---addressexchange                   // 地址交换动画案例
+|   |---akiusepractice                    // AKI使用实践
+|   |---applicationexception              // 应用异常处理案例
+|   |---barchart                          // MpChart图表实现案例
+|   |---customtabbar                      // 自定义TabBar页签 案例
+|   |---eventpropagation                  // 阻塞事件冒泡案例
+|   |---fitfordarkmode                    // 深色模式适配案例
+|   |---functionalscenes                  // 主页瀑布流实现 
+|   |---gbktranscoding                    // Axios获取网络GBK数据转换UTF-8网络数据
+|   |---handletabs                        // Tab组件实现增删Tab标签案例
+|   |---imageviewer                       // 图片预览方案
+|   |---marquee                           // 跑马灯案例
+|   |---modalwindow                       // 全屏登录页面案例
+|   |---nativeprogressnotify              // Native侧进度通知到ArkTS
+|   |---nativerawfile                     // Native读取Rawfile中文件部分内容
+|   |---navigationparametertransfer       // Navigation页面跳转对象传递案例
+|   |---pageturninganimation              // 翻页动效案例
+|   |---pendingitems                      // 列表编辑实现案例
+|   |---photopickandsave                  // 图片选择和下载保存案例
+|   |---pulltorefreshnews                 // 下拉刷新与上滑加载案例
+|   |---secondarylinkage                  // 二级联动实现案例
+|   |---slidetohideanddisplace            // 滑动页面信息隐藏与组件位移效果案例
+|   |---variablewatch                     // 多层嵌套类对象监听案例
+|   |---verifycode                        // 验证码布局
+|   |---vibrateeffect                     // 基础特性层-抖动动画及手机振动效果
+|   |---customcalendarpickerdialog        // 基础特性层-自定义日历选择器
+|   |---navigationbarchange               // 基础特性层-状态栏显隐变化案例
+|   |---customview                        // 基础特性层-自定义视图实现Tab效果
+|   |---waterripples                      // 基础特性层-听歌识曲水波纹特效案例
+|   |---citysearch                        // 城市选择案例
+|   |---componentstack                    // 组件堆叠案例
+|   |---dragandexchange                   // Grid和List内拖拽交换子组件位置案例
+|   |---foldablescreencases               // 折叠屏音乐播放器案例
+|   |---imagecomment                      // 发布图片评论案例
+|   |---mediafullscreen                   // 视频全屏切换案例
+|   |---swipercomponent                   // 多层级轮播图案例
+|   |---swipersmoothvariation             // Swiper高度可变化效果案例
+|   |---decompressfile                    // Worker子线程中解压文件案例
+|   |---paintcomponent                    // 使用绘制组件实现自定义进度动画案例
+|   |---lottieview                        // Lottie
+|   |---imagecompression                  // 图片压缩方案
+|   |---votingcomponent                   // 投票组件
+|   |---webgetcameraimage                 // WebView拉起原生相机案例
+|   |---sidebaranimation                  // SideBarContainer侧边栏淡入淡出动效实现案例
+|   |---imageenableanalyzer               // 图片拖拽AI抠图案例
+|   |---indicatorbelowswiper              // swiper指示器导航点位于swiper下方
+|   |---bigfilecopy                       // 大文件拷贝案例
+|   |---diggingholescreen                 // 适配挖孔屏案例
+|   |---dragtoswitchpictures              // 左右拖动切换图片效果案例
+|   |---listitemoverflow                  // 元素超出List区域
+|   |---multiplefilesdownload             // 多文件下载监听案例
+|   |---searchcomponent                   // 搜索页一镜到底案例
+|   |---dynamicattributes                 // 跨文件样式复用和组件复用
+|   |---etswrapper                        // NAPI封装ArkTS接口案例
+|   |---handwritingtoimage                // 手写绘制及保存图片
+|   |---multimodaltransion                // 多模态页面转场动效实现案例
+|   |---nativeembed                       // ArkWeb同层渲染
+|   |---sideslipintercept                 // 侧滑返回事件拦截案例
+|   |---webpdfviewer                      // Web组件预览PDF文件实现案例
+|   |---listslidetohistory                // 长列表滑动到指定列表项动效实现案例
+|   |---imagetheft                        // 正确配置ImageKnife请求头实现防盗链功能
+|   |---componentinstancesharedinpages    // 页面间共享组件实例的案例
+|   |---fontdynamicregistration           // 动态注册字体案例
+|   |---effectKit                         // 使用colorPicker实现背景跟随主题颜色转换
+|   |---cardswiperanimation               // 自定义Swiper卡片预览效果实现
+|   |---customscan                        // 折叠屏扫描二维码方案
+|   |---imagedepthcopy                    // PixelMap深拷贝案例
+|   |---pageflip                          // 阅读翻页方式案例
+|   |---videocache                        // 边缓存边播放案例
+|   |---iconmaincolor                     // 根据icon自适应背景颜色
+|   |---bottomdrawerslidecase             // 底部抽屉滑动效果案例
+|   |---chinesetopinyin                   // 汉字转拼音案例
+|   |---customsafekeyboard                // 自定义安全键盘案例
+|   |---nativesavepictosandbox            // Native保存图片到应用沙箱
+|   |---shortvideo                        // 短视频切换实现案例
+|   |---digitalscrollanimation            // 数字滚动动效实现
+|   |---expandtitle                       // 标题下拉缩放案例
+|   |---pageloading                       // 页面加载效果实现案例
+|   |---databaseupgrade                   // 数据库版本升级案例
+|   |---hilogmonitormanagement            // 监听HiLog日志实现测试用例验证
+|   |---transitionanimation               // 一镜到底“页面转场”动画
+|   |---imagegridlayout                   // 图片九宫格封装案例
+|   |---highlightguide                    // 应用新功能引导实现案例
+|   |---wordrecognition                   // 文字识别案例
+|   |---bottompanelslide                  // 底部面板嵌套列表滑动案例
+|   |---danmakuplayer                     // 视频弹幕功能
+|   |---listexchange                      // 列表项交换案例
+|   |---tabcontentoverflow                // tabContent内容可以在tabBar上显示并响应滑动事件案例
+|   |---chatwithexpression                // 表情聊天案例
+|   |---floatwindow                       // 悬浮窗拖拽和吸附动画
+|   |---gridexchange                      // 网格元素交换案例
+|   |---miniplayeranimation               // 音乐播放转场一镜到底效果实现
+|   |---refreshtimeline                   // 下拉展开图片和时间轴效果实现案例
+|   |---webpagesnapshot                   // Web页面长截图
+|   |---naviagtioninterceptor             // Navigation路由拦截案例
+|   |---blendmode                         // 图片混合案例
+|   |---secondfloorloadanimation          // 首页下拉进入二楼效果案例
+|   |---styledtext                        // Text实现部分文本高亮和超链接样式
+|   |---navigationinterceptor             // Navigation路由拦截案例
+|   |---customdialog                      // 全局弹窗封装案例
+|   |---textexpand                        // 文字展开收起案例
+|   |---imageresizable                    // 边框或背景图片拉伸案例
+|   |---watermark                         // 水印案例
+|   |---textoverflow                      // textOverflow长文本省略
+|   |---fadingedge                        // 边缘渐变实现
+|   |---customstepper                     // 自定义Stepper
+|   |---searchswiper                      // 搜索框热搜词自动滚动
+|   |---perfermance  
+|   |   |---highlyloadedcomponentrender   // 合理处理高负载组件的渲染文章示例代码
+|   |   |---customreusablepool            // 自定义组件复用池文章示例代码
+|   |   |---operaterdbintaskpool          // 在TaskPool线程中操作关系型数据库实现案例
+|   |---videolinkagelist                  // 视频卡片和列表区域的联动滚动
+|   |---navdestinationdialog              // NavDestination弹窗
+|   |---customkeyboardtoh5                // H5页面调用自定义输入法案例
+|   |---sendmessage                       // 发短信案例
+|---libs
+|---product 
+|   |---entry                             // 产品定制层-应用入口
